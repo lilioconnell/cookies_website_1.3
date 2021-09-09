@@ -5,9 +5,8 @@
         <!-- Tab title -->
         <title> Levain's Chocolate Chip Cookies</title>
         <!-- Assigning a certain font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet"> 
         <!-- Applying the font -->
         <style>
         body{
@@ -15,7 +14,7 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        font-family: 'Playfair Display', serif;
+        font-family:'Concert One', cursive;
         /* Changing font size */
         font-size:100%;
         /* Changing space between lines */
@@ -27,7 +26,7 @@
         }
         /* Assigning font sizes for different text types */
         h1{
-        font-size:3em;
+        font-size:3.5em;
         text-align: center;
         background-color: rgb(167, 126, 88, 0.75);
         color: rgb(0, 0, 0);
@@ -59,12 +58,13 @@
         }
        /*  big containing box */
         .super-container{
-            max-width:1200px;
+            max-width:1000px;
             margin: auto;
-            background-color: rgba(232, 233, 235, 0.5);
+            background-color: rgba(232, 233, 235, 0.25);
         }
          /*  This is around each row */
         .main-box{
+            border: 0px solid blue;
             width: 100%;
             margin:auto;
             overflow: hidden;
@@ -72,7 +72,7 @@
         }
         .roundedcorners {
         position: relative;
-        max-width: 600px;
+        max-width: 500px;
         margin:auto;
         overflow: hidden;
         box-shadow: 5px 5px 20px rgb(0,0,0);
@@ -96,20 +96,12 @@
         }
         .overlaytext {
         color: rgb(0, 0, 0);
-        font-size: 25px;
+        font-size: 20px;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
-        }
-        @media screen and (min-width: 600px) {
-        div.overlaytext{
-        font-size: 25px;}
-        }
-        @media screen and (max-width: 600px) {
-        div.overlaytext{
-        font-size: 15px;}
         }
         .col{
         border: 0px solid rgb(0, 0, 0);
@@ -117,7 +109,7 @@
         width: 50%;
         box-sizing: border-box;
         float: left;
-        padding: 25px 25px;
+        padding: 1em;
         }
         .caption{
         box-sizing: border-box;
@@ -143,16 +135,17 @@
         .nav{
         list-style: none;
         margin: 0;
+        padding: 0;
         }
         .nav li{
         display:inline;
         }
         .nav-container{
-        background-color: rgba(76, 75, 99, 0.75);
+        background-color: rgb(76, 75, 99);
         text-align: center;
         position: fixed; 
         top: 0;
-        width: 1200px;
+        width: 1000px;
         }
         .nav li{
         display: inline;
@@ -168,11 +161,11 @@
         }
         a:visited{
         color:rgb(255, 255, 255);
-        background-color: rgba(255, 255, 255, 0.25);
+        background-color: rgba(255, 255, 255, 0.267);
         }
         a:hover{
         color:rgb(255, 255, 255);
-        background-color: rgba(255, 255, 255, 0.25);
+        background-color: rgba(255, 255, 255, 0.267);
         }
         </style>
     </head>
@@ -183,13 +176,13 @@
         <h1  ID="Home"> Remaking New York's World Famous Cookies &#127850; </h1>
         <!-- Sub Heading -->
         <p  ID="Story"> In 2013, I visited New York, and on that trip took a stop at the world famous 
-        <a href="https://levainbakery.com/" target="blank"> <u style="color:rgb(112, 111, 190)"> Levain Bakery.</u></a> 
+        <a href="https://levainbakery.com/" target="blank"> <u style="color:blue;"> Levain Bakery.</u></a> 
         I had a chocolate chip cookie and to this day, it has not been topped by <em>any</em> other.  </p>
         <p> I am going to be attempting to recreate these cookies by using a recipe I found online 
         claiming to taste almost the exact same. I am excited to see if they will taste the same as 
         the original and the differences between the two. Here you will find the step by step method and results! </p>
         <a href="https://www.sweetestmenu.com/levain-bakery-chocolate-chip-cookies/" target="blank"> 
-        <i style="color:rgb(112, 111, 190); padding: 0.5em;"> This is a link to the recipe I used </i></a>
+        <i style="color:blue; padding: 0.5em;"> This is a link to the recipe I used </i></a>
         <hr>
         <p ID="Recipe"> The ingredients in this recipe are: </p>
         <!-- Creating a numbered list -->
